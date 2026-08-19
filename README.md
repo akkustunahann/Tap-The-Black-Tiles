@@ -60,7 +60,7 @@ Tap-The-Black-Tiles
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Tap-The-Black-Tiles.git
+git clone https://github.com/akkustunahann/Tap-The-Black-Tiles
 ```
 
 2. Open the project folder.
