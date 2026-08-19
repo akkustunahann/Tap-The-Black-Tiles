@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tap The Black Tiles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <section id="membersScreen" class="membersRoot">
+    <div class="bg"></div>
+
+    <div class="card clickable" id="membersCard">
+      <h1 class="title">Project Members</h1>
+
+      <div class="member">
+        <div class="avatar"></div>
+        <div class="info">
+          <div class="name">Tunahan Akkuş</div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="avatar"></div>
+        <div class="info">
+          <div class="name">İsgandar Musayev</div>
+        </div>
+      </div>
+
+      <div class="metaHint">Click to start</div>
+    </div>
+  </section>
+
+  <section id="gameScreen" class="gameRoot hidden">
+    <header class="hud">
+      <div class="hudBox">
+        <div class="hudLabel">HI-SCORE</div>
+        <div id="hiScore" class="hudValue">0</div>
+      </div>
+
+      <div class="hudBox">
+        <div class="hudLabel">SCORE</div>
+        <div id="score" class="hudValue scoreGreen">0</div>
+        <div id="gain" class="gain hidden">+0</div>
+      </div>
+
+      <div class="hudBox">
+        <div class="hudLabel">TIME</div>
+        <div id="time" class="hudValue timeRed">10</div>
+      </div>
+    </header>
+
+    <div class="timeBarWrap">
+      <div id="pointsBar" class="timeBar"></div>
+    </div>    
+
+    <main class="stage">
+      <div id="board" class="board"></div>
+      <div id="centerMsg" class="centerMsg hidden">Tap the black tiles!</div>
+    </main>
+
+    <div id="bottomHint" class="bottomHint hidden">F5 to play again</div>
+
+    <div id="countdownOverlay" class="countdownOverlay hidden">
+      <div id="countdownNum" class="countdownNum">3</div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
