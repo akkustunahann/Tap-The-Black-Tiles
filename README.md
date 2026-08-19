@@ -91,7 +91,7 @@ No additional installation or dependencies are required.
 ## Authors
 
 - Tunahan Akkuş
-- İskandar Musayev
+- İsgandar Musayev
 
 ---
 
